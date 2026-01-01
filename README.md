@@ -1,9 +1,9 @@
 # Single-Cell Transcriptomic Dissection of Human Invasive Ductal Carcinoma
 
 ## Overview
-This project presents a complete single-cell RNA sequencing (scRNA-seq) analysis of 750 sorted cells from human Invasive Ductal Carcinoma (IDC) generated using 10x Genomics 3′ v3.1 chemistry** and processed with Cell Ranger v6.0.0.
+This project presents a complete single-cell RNA sequencing (scRNA-seq) analysis of 750 sorted cells from human Invasive Ductal Carcinoma (IDC) generated using 10x Genomics 3′ v3.1 chemistry and processed with Cell Ranger v6.0.0.
 
-The workflow performs quality control, normalization using **SCTransform**, dimensionality reduction, clustering, **automatic cell-type annotation**, and **tumor vs normal epithelial comparison** to dissect the cellular heterogeneity of IDC.
+The workflow performs quality control, normalization using **SCTransform**, dimensionality reduction, clustering, automatic cell-type annotation, and tumor vs normal epithelial comparison to dissect the cellular heterogeneity of IDC.
 
 ---
 
@@ -19,9 +19,9 @@ The workflow performs quality control, normalization using **SCTransform**, dime
 ## Analysis Workflow
 1. Data import from Cell Ranger output  
 2. Quality control and filtering  
-3. Normalization using **SCTransform**  
+3. Normalization using SCTransform
 4. PCA, graph-based clustering, and UMAP visualization  
-5. Automatic cell-type annotation using **SingleR**  
+5. Automatic cell-type annotation using SingleR 
 6. Identification of epithelial cells  
 7. Tumor vs normal epithelial state classification  
 8. Differential gene expression analysis  
